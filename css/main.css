@@ -13,7 +13,7 @@ div {
 }
 
 .btn {
-  padding: .4em .75em .3em;
+  padding: .5em .8em;
   background-color: #333;
   color: #fff;
   font-size: 1.125rem;
@@ -36,13 +36,18 @@ div {
 }
 
 .btn-ghost {
-  color: #000;
+  background-color: #fff;
+  color: #666;
 }
 
 .btn-ghost:hover {
   background-color: #666;
   border-color: #666;
   color: #fff;
+}
+
+.extra {
+  border: 3px #000 solid;
 }
 
 .btn-warning {
