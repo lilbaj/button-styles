@@ -11,3 +11,57 @@ div {
   padding: .5rem;
   text-align: center;
 }
+
+.btn {
+  padding: .4em .75em .3em;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.125rem;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-subtle {
+  padding: .4em .75em .3em;
+  background-color: #ccc;
+  color: #fff;
+  font-size: 1.125rem;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+}
+
+.btn-ghost {
+  padding: .4em .75em .3em;
+  color: #000;
+  font-size: 1.125rem;
+  border: 3px #000 solid;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  border-color: #666;
+  color: #fff;
+}
+
+.btn-warning {
+  padding: .4em .75em .3em;
+  background-color: #f33;
+  color: #fff;
+  font-size: 1.125rem;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+}
