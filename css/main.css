@@ -19,6 +19,7 @@ div {
   font-size: 1.125rem;
   border-radius: 8px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -26,12 +27,8 @@ div {
 }
 
 .btn-subtle {
-  padding: .4em .75em .3em;
   background-color: #ccc;
   color: #fff;
-  font-size: 1.125rem;
-  border-radius: 8px;
-  text-decoration: none;
 }
 
 .btn-subtle:hover {
@@ -39,12 +36,7 @@ div {
 }
 
 .btn-ghost {
-  padding: .4em .75em .3em;
   color: #000;
-  font-size: 1.125rem;
-  border: 3px #000 solid;
-  border-radius: 8px;
-  text-decoration: none;
 }
 
 .btn-ghost:hover {
@@ -54,12 +46,8 @@ div {
 }
 
 .btn-warning {
-  padding: .4em .75em .3em;
   background-color: #f33;
   color: #fff;
-  font-size: 1.125rem;
-  border-radius: 8px;
-  text-decoration: none;
 }
 
 .btn-warning:hover {
